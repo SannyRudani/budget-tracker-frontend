@@ -1,0 +1,22 @@
+.dashboard-wrapper {
+  display: flex;
+  gap: 0.8rem;
+  flex-direction: column;
+  .monthly-budget {
+    height: 60vh;
+    width: 100%;
+    padding: 0.8rem;
+  }
+  .widget-wrapper {
+    display: flex;
+    flex-direction: column;
+    gap: 0.8rem;
+  }
+  .income-expence-card {
+    padding: 0.8rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
+}
